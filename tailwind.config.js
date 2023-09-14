@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        source: ['"Source Serif 4"']
+        source: ['"Source Serif 4"'],
+        noto: ['"Noto Serif Display"']
       }
     },
   },
