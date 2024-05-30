@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
 	return (
 		<section
@@ -11,8 +9,12 @@ const Contact = () => {
 					Contact Me
 				</h1>
 			</div>
-			<form method='POST'action='https://getform.io/f/13dd5889-afeb-426e-a943-95a3922ee86b' className='flex flex-col max-w-[600px] w-full bg-white rounded p-4 shadow-lg'>
-                <label className="text-sm font-bold text-[#757780]">Name</label>
+			<form
+				method='POST'
+				action='https://getform.io/f/13dd5889-afeb-426e-a943-95a3922ee86b'
+				className='flex flex-col max-w-[600px] w-full bg-white rounded p-4 shadow-lg'
+			>
+				<label className='text-sm font-bold text-[#757780]'>Name</label>
 				<input
 					className='my-4 p-2 bg-[#f0f0f0] text-[#757780] rounded'
 					type='text'
@@ -20,7 +22,7 @@ const Contact = () => {
 					name='name'
 					required
 				></input>
-                <label className="text-sm font-bold text-[#757780]">Email</label>
+				<label className='text-sm font-bold text-[#757780]'>Email</label>
 				<input
 					className='my-4 p-2 bg-[#f0f0f0] text-[#757780] rounded'
 					type='text'
@@ -28,7 +30,7 @@ const Contact = () => {
 					name='email'
 					required
 				></input>
-                <label className="text-sm font-bold text-[#757780]">Message</label>
+				<label className='text-sm font-bold text-[#757780]'>Message</label>
 				<textarea
 					className='my-4 p-2 bg-[#f0f0f0] text-[#757780] rounded'
 					type='text'
